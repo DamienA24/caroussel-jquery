@@ -1,0 +1,35 @@
+#container{
+  width: 900px;
+  margin: auto;
+}
+
+.slides {
+  width: 900px;
+  height: 500px;
+  overflow: hidden;
+  border: 3px solid #F2F2F2;
+}
+
+.slides ul {
+   /* 4 images donc 4 x 100% */
+  width: 400%;
+  height: 200px;
+  padding:0; margin:0;
+  list-style: none;
+}
+.slides li {
+  float: left;
+}
+
+a :hover{
+  opacity: 0.5;
+}
+
+.controls{
+  display: flex;
+  justify-content: space-between;
+}
+
+a :hover{
+  opacity: 0.5;
+}
